@@ -1,5 +1,3 @@
-
-
 // Typeface
 $main-font: 'Helvetica', sans-serif;
 
@@ -16,12 +14,4 @@ $main-font: 'Helvetica', sans-serif;
         -webkit-font-smoothing: subpixel-antialiased;
         -moz-osx-font-smoothing: auto;
     }
-}
-
-//Placeholder
-@mixin placeholder {
-	&.placeholder { @content; }
-	&:-moz-placeholder { @content; }
-	&::-moz-placeholder { @content; }
-	&::-webkit-input-placeholder { @content; }
 }
